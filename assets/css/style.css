@@ -1,0 +1,29 @@
+body {
+  background: cadetblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  position: relative;
+  height: 500px;
+  aspect-ratio: 1;
+  background: salmon;
+}
+.wrapper-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+.wrapper-container-img {
+  position: absolute;
+  transform-origin: center bottom;
+  transform: rotateX(96deg);
+}
+
+/*# sourceMappingURL=style.css.map */
