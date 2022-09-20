@@ -10,7 +10,6 @@ body {
   position: relative;
   height: 500px;
   aspect-ratio: 1;
-  background: salmon;
 }
 .wrapper-container {
   width: 100%;
@@ -24,6 +23,9 @@ body {
   position: absolute;
   transform-origin: center bottom;
   transform: rotateX(96deg);
+}
+.wrapper-actions {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
